@@ -24,7 +24,7 @@ public class Config {
             .define("autoAssignFromNutrition", false);
 
     private static final ForgeConfigSpec.ConfigValue<List<? extends String>> FOOD_USE_DURATION_STRINGS = BUILDER.comment("List of food items with custom use durations in ticks, formatted as item_id=ticks.")
-            .defineListAllowEmpty("foodUseDurations", List.of("minecraft:apple=20", "minecraft:carrot=20", "minecraft:beetroot=10", "minecraft:sweet_berries=5", "minecraft:glow_berries=5, minecraft:cookie=5"), Config::validateFoodUseDuration);
+            .defineListAllowEmpty("foodUseDurations", List.of("minecraft:apple=20", "minecraft:carrot=20", "minecraft:beetroot=10", "minecraft:sweet_berries=5", "minecraft:glow_berries=5", "minecraft:cookie=5", "minecraft:melon_slice=5"), Config::validateFoodUseDuration);
 
     static final ForgeConfigSpec SPEC = BUILDER.build();
 
