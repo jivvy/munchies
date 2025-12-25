@@ -17,3 +17,7 @@ There is also an option in the config for automatically assigning food eating va
 ## Compatability
 
 This mod should work with almost any modded food items.
+
+## License
+
+MIT License
